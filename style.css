@@ -1,0 +1,154 @@
+
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+.ul3{
+    display: flex;
+    align-items: center;
+}
+
+.logo3{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo3 li{
+    list-style: none;
+    align-items: center;
+}
+.logo3 ul a{
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+}
+.decore ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.decore ul a{
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+}
+.decore ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+.decore button{
+    margin-right: 30px;
+    width: 100px;
+    height: 40px;
+    background-color: var(--button-theme-color-dimmed,#ffffff);
+    border-color: #101010;
+    border-color: var(--button-theme-color,#5e5e5e );
+    color: #000000;
+    opacity: 90%;
+}
+.navbar li :hover{
+    color: #6b5757;
+    transition-duration: 0.4s;
+}
+button { 
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+button:hover {
+    background-color: #864242;
+    color: rgb(0, 0, 0);
+  }
+.decore ul{
+    align-items: center;
+}
+.decore{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    text-transform: uppercase;
+    margin-left: 980px;
+    align-items: center;
+    
+    
+}
+.navbar{
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    position: absolute;
+    background-color: #311721;
+    display: flex;
+    align-items: center;
+    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3eff2;
+    text-shadow: #000000;
+}
+
+
+.navbar h3 {
+    font-size: .75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.paradoxlogo{
+    width: 48px;
+    height: 48px;
+    margin-right: 20px;
+}
+.logo{
+    width: 160px;
+    height: 64.8px;
+}
+.shoping{
+    width: 50px;
+    height: 40px;
+}
+/* sus e navbar*/
+main{
+    margin-top: 100px;
+    height:1340px;
+    width: 1855px;
+    background-color: #363636;
+}
+.bg-img{
+    
+}
+.bg-img{
+    border: #f3eff2 solid 2px;
+    border-style: double;
+}
+.bg-img img{
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 1820px;
+    height: 1200px;
+}
+.avion{
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    overflow: hidden;
+}

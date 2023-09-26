@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>paradox</title>
+    <title>Paradox</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <section class="navbar">
@@ -30,8 +31,7 @@
 
         <nav class="decore">
            <ul>
-            
-            <button>BUY NOW</button>
+            <button class="w3-button"  >BUY</button>
             <img class="shoping" src="img/cart-shopping-solid (1).svg" alt="cart-shopping-solid">
             
                 <li>
@@ -40,14 +40,63 @@
             </ul>
         </nav>
     </section>
-    <main>
-            <h1>What Is Victoria?</h1>
-            <p>Victoria 3 is a new grand strategy game from Paradox Interactive. A simulation of 100 years, starting in 1836. Choose any nation and guide it through a tumultuous and transformative century. Your political, economic and diplomatic decisions will let you change the fate of millions, as you shape your society and claim your place in the sun.</p>
-        <section class="bg-img">
-            <img c src="img\imagineback.png" alt="peisaj">
-            <img class="avion" src="img\pozacuavion.png" alt="avion">
+    <main> 
+        
+        <section class="peisaj" >
+            <div class="animatie">
+                <aside class="text">
+                    <div>
+                        <h1>What Is Victoria<img src="img\gamelogo.png" alt="gamelogo">? </h1>
+                        <p>Victoria 3 is a new grand strategy game from Paradox Interactive. A simulation of 100 years, starting in 1836. Choose any nation and guide it through a tumultuous and transformative century. Your political, economic and diplomatic decisions will let you change the fate of millions, as you shape your society and claim your place in the sun.</p>
+                    </div>
+                    <img class="vic3" src="img\victoria logo.png" alt="gamestats">
+                </aside>
+                
+            </div> 
+            
         </section>
+        <img class="avion" src="img\pozacuavion.png" alt="avion"> 
+        
     </main>
-    
+    <section class="container">
+        <aside class="mainfeat">
+            <h1>MAIN FEATURES</h1>
+            <div class="mySlides">
+                <img class="indigeni" src="img\spynetwork (1).png" alt="indigeni">
+                <img class="imgtext" src="img\download (1).png" alt="titlu">
+                <p>Rather than paint the map of the world, you write the book of your nation. But you are an actor on a global stage, racing other nations up the mountain of prestige. In Victoria 3, anything achievable by war, can also be done by diplomacy. Use pacts, alliances, threats and bluffs to claim your place in the sun.
+
+                </p>
+            </div>
+            <div class="mySlides">
+                <img class="indigeni" src="img\indigeni.png" alt="indigeni">
+                <img class="imgtext" src="img\vreausa.png" alt="titlu">
+                <p>In Victoria 3, you meet the people of the age in our Pops system. High and low, across cultures and lands - we create a representation of the global population in 1836. Pops have needs, desires and form powerful groups for you to handle. These groups are the foundation of a realistic and dynamic society simulator.</p>
+            </div>
+            <div class="mySlides">
+                <img class="indigeni" src="img\diplomatie12.png" alt="indigeni">
+                <img class="imgtext" src="img\diplomatie (1).png" alt="titlu">
+                <p>The muscle of industry is powered by the sinews of trade. Import necessary goods to keep your people happy and fuel the factories that will produce valuable items for export. Harness the power of steam and coal to transform factory towns into industrial titans.</p>
+            </div>
+            <div class="butoane">
+                <button class="w3-button" onclick="plusDivs(-1)">BACK</button>
+                <button class="w3-button" onclick="plusDivs(1)">NEXT</button>
+                
+            </div>
+        </aside>
+        <div class="paralax" >
+            <div class="backgroundimg">
+                <div class="cont">
+                    <img id="soldati" class="hidden" src="img\soldati.png" alt="soldati">
+                    <div class="hidden" id="paragraf">
+                        <p   >Never before have the lives of so many changed so much, so quickly. Turn the shouts of upheaval echoing in the streets into government reform. Transform the force of technological innovation into sparks of progress. Social, technological and cultural revolutions provide the perfect playground for your alternate history fantasies.
+                    </div>
+                </div>
+                </p>
+                <img class="hidden" class="vezi" src="img\copiii.png" alt="flag">
+            </div> 
+        </div>
+    </section>
+    <script defer src="app.js"></script>
 </body>
 </html>
